@@ -456,7 +456,7 @@ main {
 }
 
 input[type="submit"] {
-  background-color: #7E4B2C;
+  background-color: #371B10;
   color: white;
   border: none;
   cursor: pointer;
@@ -468,7 +468,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: #371B10;
+  background-color: #7E4B2C ;
 }
 
 input[type="number"]::-webkit-inner-spin-button,
