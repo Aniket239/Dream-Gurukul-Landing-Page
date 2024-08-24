@@ -89,7 +89,7 @@ nav ul li a img {
 }
 
 main {
-  background-image: url("assets/DWC\ Banner\ desktop.jpg");
+  background-image: url("assets/dream-gurukul-landing-page-landscape-english-3.webp");
   height: 90vh;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -107,7 +107,6 @@ main {
 .about-the-project .heading {
   width: 90%;
 }
-
 
 #about-the-project {
   opacity: 0;
@@ -209,7 +208,7 @@ main {
   text-transform: uppercase;
   letter-spacing: 0.4px;
   color: #ffffff;
-  background-color: #371B10 ;
+  background-color: #371B10;
   border-style: solid;
   border-width: 2px 2px 2px 2px;
   border-color: rgba(255, 255, 255, 0.333);
@@ -218,13 +217,13 @@ main {
   margin-bottom: 30px;
   transform: translate(0px, 0px) rotate(0deg);
   transition: 0.2s;
-  box-shadow: -4px -2px 16px 0px #ffffff, 4px 2px 16px 0px rgb(95 157 231 / 48%);
+  box-shadow: -4px -2px 16px 0px #ffffff, 4px 2px 16px 0px rgba(138, 57, 57, 0.48);
 }
 
 .download-brochure:hover {
   color: #ffffff;
   background-color: #7E4B2C;
-  box-shadow: -2px -1px 8px 0px #ffffff, 2px 1px 8px 0px rgb(95 157 231 / 48%);
+  box-shadow: -2px -1px 8px 0px #ffffff, 2px 1px 8px 0px rgba(179, 74, 74, 0.48);
 }
 
 .download-brochure:active {
@@ -256,7 +255,6 @@ main {
   }
 }
 
-
 .form-container {
   position: fixed;
   top: 0;
@@ -278,7 +276,6 @@ main {
 .form-container.fade-out {
   animation: fadeOut 0.5s ease-in-out;
 }
-
 
 .form-container .material-symbols-outlined {
   position: absolute;
@@ -468,7 +465,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: #7E4B2C ;
+  background-color: #7E4B2C;
 }
 
 input[type="number"]::-webkit-inner-spin-button,
@@ -512,7 +509,6 @@ input[type="number"] {
   visibility: hidden;
 }
 
-
 .side-nav-call {
   text-decoration: none;
   color: #000000;
@@ -521,7 +517,7 @@ input[type="number"] {
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  background-color: #7E4B2C;
+  background-color: #371B10;
   padding: 8px 0 6px 0;
   border-radius: 50px 0 0 50px;
   height: 54px;
@@ -529,7 +525,6 @@ input[type="number"] {
   overflow: hidden;
   /* Ensure the content doesn't overflow */
 }
-
 
 .side-nav-call .material-symbols-outlined {
   font-variation-settings:
@@ -539,7 +534,7 @@ input[type="number"] {
     'opsz' 48;
   font-size: 40px;
   color: white;
-  background-color: #7E4B2C;
+  background-color: #371B10;
   width: auto;
   z-index: 10;
   padding: 0 15px 0 0;
@@ -550,7 +545,7 @@ input[type="number"] {
   max-width: 0;
   opacity: 0;
   font-size: x-large;
-  font-family: "josefin sans",sans-serif;
+  font-family: "josefin sans", sans-serif;
   font-weight: 400;
   transition: all 0.5s ease-in-out;
   overflow: hidden;
@@ -598,7 +593,6 @@ input[type="number"] {
   border-radius: 50%;
 }
 
-
 .side-nav-download-brochure {
   display: none;
 }
@@ -626,7 +620,7 @@ input[type="number"] {
 
 .side-nav-enquiry button {
   padding: 8px 18px;
-  background-color: #7E4B2C;
+  background-color: #371B10;
   border: none;
   color: white;
   font-size: 30px;
@@ -644,7 +638,6 @@ input[type="number"] {
   /* Turn off the glow animation on hover */
 }
 
-
 .unit-details {
   display: flex;
   padding: 150px 0;
@@ -652,7 +645,6 @@ input[type="number"] {
   flex-direction: column;
   background-color: transparent;
 }
-
 
 .unit-details h1 {
   font-family: "Playfair Display", serif;
@@ -694,7 +686,7 @@ input[type="number"] {
   font-family: "Josefin Sans", sans-serif;
   /* font-weight: 400; */
   font-size: 30px;
-  color: #371B10 ;
+  color: #371B10;
 }
 
 .unit-details .unit-card p {
@@ -705,9 +697,9 @@ input[type="number"] {
 .unit-details .unit-card button.view-details {
   padding: 10px 20px;
   margin-top: 15px;
-  border: 2px solid #371B10 ;
+  border: 2px solid #371B10;
   background-color: white;
-  color: #371B10 ;
+  color: #371B10;
   cursor: pointer;
   border-radius: 40px 40px 40px 40px;
   transition: all 0.3s;
@@ -721,14 +713,13 @@ input[type="number"] {
 }
 
 /* Add this CSS to your stylesheet */
-
 /* Add this CSS to your stylesheet */
-
 @keyframes fadeInMoveUp {
   from {
     opacity: 0;
     transform: translateY(20px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -743,8 +734,6 @@ input[type="number"] {
 .unit-card.visible {
   animation: fadeInMoveUp 1.5s forwards;
 }
-
-
 
 .gallery {
   /* background-color: #ffffff; */
@@ -769,7 +758,7 @@ input[type="number"] {
   display: flex;
   align-items: center;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   overflow-x: auto;
   white-space: nowrap;
   scrollbar-width: none;
@@ -786,14 +775,13 @@ input[type="number"] {
   border: none;
   background-color: #cecccc;
   font-family: "Jost", sans-serif;
-  min-width: 33%;
+  min-width: 30%;
   text-align: center;
   transition: all 0.3s;
   font-size: 17px;
   font-weight: 500;
   display: inline-block;
   margin-right: 3px;
-
 }
 
 .gallery-tab:focus,
@@ -822,7 +810,6 @@ input[type="number"] {
 .gallery-desktop-images {
   display: block;
 }
-
 
 .gallery-tab-content.active {
   opacity: 1;
@@ -961,12 +948,14 @@ input[type="number"] {
 
 .amenities-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: flex-start;
+  width: 92%;
+  margin: auto;
 }
 
 .amenities-list {
-  width: 20%;
+  width: 28%;
   margin-right: 20px;
   text-align: left;
 }
@@ -1009,7 +998,7 @@ input[type="number"] {
   position: relative;
   width: 60%;
   overflow: hidden;
-  margin: auto 0;
+  margin: auto 30px auto 0;
 }
 
 .carousel-container {
@@ -1024,7 +1013,6 @@ input[type="number"] {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
 }
 
 .amenities-name {
@@ -1284,9 +1272,8 @@ input[type="number"] {
 }
 
 .floor-plans-view-button:hover {
-  background-color: #7E4B2C ;
+  background-color: #7E4B2C;
 }
-
 
 .floor-plans-item img,
 .master-floor-plans-item img {
@@ -1337,7 +1324,6 @@ input[type="number"] {
   border-color: #7E4B2C;
 }
 
-
 .location-map {
   text-align: center;
   padding: 20px;
@@ -1358,26 +1344,11 @@ input[type="number"] {
   width: 100%;
 }
 
-/* .map h1::before {
-  content: "";
-  display: inline-block;
-  margin-right: 10px;
-  height: 3px;
-  width: 40%;
-  background-color: black;
-  vertical-align: middle;
-} */
+/* .map h1::before { content: ""; display: inline-block; margin-right: 10px; height: 3px; width: 40%; background-color: black; vertical-align: middle; }
+*/
 /* 
-.map h1::after {
-  content: "";
-  display: inline-block;
-  margin-left: 10px;
-  height: 2px;
-  width: 80%;
-  background-color: black;
-  vertical-align: middle;
-} */
-
+.map h1::after { content: ""; display: inline-block; margin-left: 10px; height: 2px; width: 80%; background-color: black; vertical-align: middle; }
+*/
 .map img {
   width: 70%;
   margin: 20px auto;
@@ -1604,7 +1575,6 @@ input[type="number"] {
   right: 0px;
 }
 
-
 .project-video {
   text-align: center;
   padding: 0 20px 60px 20px;
@@ -1705,11 +1675,13 @@ input[type="number"] {
   mix-blend-mode: multiply;
   object-fit: contain;
 }
+
 @keyframes fadeInMoveUp {
   from {
     opacity: 0;
     transform: translateY(100px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -1726,8 +1698,10 @@ input[type="number"] {
 }
 
 .bank-logos img {
-  opacity: 0; /* Ensure they are hidden initially */
-  transition: opacity 2.5s, transform 2.5s; /* Add transition for smoother appearance */
+  opacity: 0;
+  /* Ensure they are hidden initially */
+  transition: opacity 2.5s, transform 2.5s;
+  /* Add transition for smoother appearance */
 }
 
 .legacy {
@@ -1761,8 +1735,7 @@ input[type="number"] {
 }
 
 .stat img {
-  /* width: 100px;
-  height: 100px; */
+  /* width: 100px; height: 100px; */
   margin-bottom: 20px;
 }
 
@@ -1782,6 +1755,7 @@ input[type="number"] {
     opacity: 0;
     transform: translateY(120px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -1796,7 +1770,6 @@ input[type="number"] {
 .stat.visible {
   animation: fadeInMoveUp 2.5s forwards;
 }
-
 
 footer {
   bottom: 0;
@@ -1829,7 +1802,7 @@ footer div::after {
   /* border-bottom: 1px solid white; */
 }
 
-footer div p{
+footer div p {
   color: #efe1bb;
   font-size: 18px;
 }
@@ -1867,7 +1840,6 @@ footer a {
 
 .site-address {
   text-align: left;
-
 }
 
 @keyframes fadeInMoveUp {
@@ -1875,6 +1847,7 @@ footer a {
     opacity: 0;
     transform: translateY(120px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -1890,26 +1863,20 @@ footer a {
   animation: fadeInMoveUp 2.5s forwards;
 }
 
-.developer-office, .site-address {
+.developer-office,
+.site-address {
   opacity: 0;
   transform: translateY(20px);
   transition: opacity 2.5s, transform 2.5s;
 }
 
-
 /*===================================================== small desktop ============================= */
-
 @media (min-width: 992px) and (max-width: 1199px) {}
 
 /* =========================================== tab =============================================*/
-
 @media (min-width: 768px) and (max-width: 991px) {}
 
-
-
-
 /* ==================================================== Mobile version ========================================= */
-
 @media (max-width: 768px) {
 
   .about-the-project h1,
@@ -2004,7 +1971,6 @@ footer a {
     animation: fadeIn 0.5s ease-in-out forwards;
   }
 
-
   @keyframes fadeIn {
     from {
       opacity: 0;
@@ -2024,7 +1990,6 @@ footer a {
       opacity: 0;
     }
   }
-
 
   .mobile-nav ul {
     list-style: none;
@@ -2262,7 +2227,7 @@ footer a {
 
   main {
     height: 84vh;
-    background-image: url('assets/DWC\ banner\ mobile.webp');
+    background-image: url('assets/Dream-Gurukul-landing-page-portrait-english.webp');
     margin-top: 60px;
   }
 
@@ -2271,12 +2236,8 @@ footer a {
     flex-direction: column;
   }
 
-  /* .about-the-project{
-    background-image: url('assets/amenities\ background.webp');
-    background-repeat: no-repeat;
-    background-size: cover;
-  } */
-
+  /* .about-the-project { background-image: url('assets/amenities\ background.webp'); background-repeat: no-repeat; background-size: cover; }
+*/
   .about-the-project h1 {
     margin: 0 0 0 2%;
   }
@@ -2289,7 +2250,8 @@ footer a {
     width: 95%;
     margin: 0 0 0 5%;
   }
-  .heading p{
+
+  .heading p {
     margin: 0 0 0 2%;
   }
 
@@ -2349,15 +2311,16 @@ footer a {
     font-size: 17px;
   }
 
-
   .icon {
     width: 80px;
     height: 80px;
   }
-  .custom-icon{
+
+  .custom-icon {
     width: 90px;
     height: 90px;
   }
+
   .project-about-icon p {
     text-align: center;
   }
@@ -2396,7 +2359,7 @@ footer a {
   .gallery-tab {
     font-size: 15px;
     padding: 8px;
-    min-width: 33%;
+    min-width: 50%;
     ;
     margin-right: 3px;
   }
@@ -2413,14 +2376,12 @@ footer a {
     width: 95%;
   }
 
-  
-  .amenities{
-  padding: 20px;
-
+  .amenities {
+    padding: 20px;
   }
 
-  .amenities h1{
-    padding: 20px 0 0 5%;
+  .amenities h1 {
+    padding: 20px 0 0 8%;
   }
 
   .amenities-container {
@@ -2591,7 +2552,6 @@ footer a {
     width: 30%;
   }
 
-
   .map img {
     width: 100%;
     /* margin: auto; */
@@ -2604,7 +2564,6 @@ footer a {
   .map-mobile {
     display: block;
   }
-
 
   .map-text {
     bottom: -33px;
@@ -2638,7 +2597,6 @@ footer a {
     width: 100%;
   }
 
-
   .location-list {
     width: 100%;
   }
@@ -2660,6 +2618,10 @@ footer a {
   .map-carousel {
     margin: 20px 0 0 3%;
     width: 95%;
+  }
+
+  .map-item{
+    align-items: flex-start;
   }
 
   .map-item ul li h2 {
@@ -2735,11 +2697,12 @@ footer a {
     width: 90%;
     margin-bottom: 5%;
   }
-  .developer-office{
-      text-align: center ;
+
+  .developer-office {
+    text-align: center;
   }
 
-  .site-address{
+  .site-address {
     text-align: center;
   }
 
@@ -2747,11 +2710,9 @@ footer a {
     width: 250px;
     left: 0;
   }
-
 }
 
 /* =================================================== Small mobile version ==================================== */
-
 @media screen and (max-width: 410px) {
 
   .about-the-project h1,
@@ -2858,7 +2819,6 @@ footer a {
   }
 
   .unit-details .unit-card button.view-details {
-
     font-size: 19px;
   }
 
@@ -2925,7 +2885,8 @@ footer a {
     width: 80px;
     height: 80px;
   }
-  .custom-icon{
+
+  .custom-icon {
     width: 90px;
     height: 90px;
   }
@@ -2933,13 +2894,14 @@ footer a {
   footer {
     padding-bottom: 10vh;
   }
-
 }
+
 @media screen and (max-width: 365px) {
   #phone_number {
     font-size: 14px;
   }
-  .bottom-nav div button{
+
+  .bottom-nav div button {
     font-size: 16px;
   }
 }
