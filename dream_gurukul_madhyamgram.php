@@ -119,7 +119,9 @@
             <li><a href="#home-loan">Home Loan</a></li>
         </ul>
     </div>
-    <main id="main"></main>
+    <main id="main">
+        
+    </main>
     <div class="form-container" id="form-container">
         <form class="enquiry-form" action="dream_gurukul_madhyamgram/form_submit.php" method="post">
             <input id="utm_form_name" name="utm_form_name" type="hidden" value="registration">
@@ -1218,7 +1220,7 @@
         <h1>Project Overview Video</h1>
         <div class="video-container">
             <div class="video-thumbnail" id="video-thumbnail">
-                <img loading="lazy" src="dream_gurukul_madhyamgram/assets/Video Thumbnail.webp" alt="Video Thumbnail" id="thumbnail-image">
+                <img loading="lazy" src="dream_gurukul_madhyamgram/assets/Dream Gurukul youtube thumbnail image.JPG" alt="Video Thumbnail" id="thumbnail-image">
                 <div class="play-button" id="play-button">▶</div>
             </div>
             <div class="video-wrapper" id="video-wrapper">
