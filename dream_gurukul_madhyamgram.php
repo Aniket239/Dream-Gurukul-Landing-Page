@@ -23,24 +23,24 @@
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://thejaingroup.co.in/dream_gurukul.php" />
+    <meta property="og:url" content="https://thejaingroup.co.in/dream_gurukul_madhyamgram.php" />
     <meta property="og:title" content="Dream World City | 2/3 BHK Ready Flats in Joka" />
     <meta property="og:description"
         content="Dream World City - A Project By Jain Group  offering affordable 2 & 3 BHK Starting 29 Lakh in Joka. Just 10 min from Joka Metro." />
-    <meta property="og:image" content="dream_gurukul\assets\gallery images\elevation\desktop\desktop 5.webp" />
+    <meta property="og:image" content="dream_gurukul_madhyamgram\assets\gallery images\elevation\desktop\desktop 5.webp" />
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://thejaingroup.co.in/dream_gurukul.php" />
+    <meta property="twitter:url" content="https://thejaingroup.co.in/dream_gurukul_madhyamgram.php" />
     <meta property="twitter:title" content="Dream World City | 2/3 BHK Ready Flats in Joka" />
     <meta property="twitter:description"
         content="Dream World City - A Project By Jain Group  offering affordable 2 & 3 BHK Starting 29 Lakh in Joka. Just 10 min from Joka Metro." />
-    <meta property="twitter:image"  content="dream_gurukul\assets\gallery images\elevation\desktop\desktop 5.webp"   />
+    <meta property="twitter:image"  content="dream_gurukul_madhyamgram\assets\gallery images\elevation\desktop\desktop 5.webp"   />
 
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="dream_gurukul/assets/favicon/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="dream_gurukul_madhyamgram/assets/favicon/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -57,7 +57,7 @@
         href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <title>Dream World City</title>
-    <link rel="stylesheet" href="dream_gurukul/style.css">
+    <link rel="stylesheet" href="dream_gurukul_madhyamgram/style.css">
 </head>
 
 <body>
@@ -70,7 +70,7 @@
         <ul id="nav-links">
             <li>
                 <a href="#main">
-                    <img loading="lazy" src="dream_gurukul/assets/Dream Gurukul logo.png" alt="logo">
+                    <img loading="lazy" src="dream_gurukul_madhyamgram/assets/Dream Gurukul logo.png" alt="logo">
                 </a>
             </li>
         </ul>
@@ -121,7 +121,7 @@
     </div>
     <main id="main"></main>
     <div class="form-container" id="form-container">
-        <form class="enquiry-form" action="dream_gurukul/form_submit.php" method="post">
+        <form class="enquiry-form" action="dream_gurukul_madhyamgram/form_submit.php" method="post">
             <input id="utm_form_name" name="utm_form_name" type="hidden" value="registration">
             <input id="utm_source" name="utm_source" type="hidden" value="">
             <input id="utm_medium" name="utm_medium" type="hidden" value="">
@@ -238,28 +238,28 @@
                 <div class="project-about-icon">
                     <!-- <img loading="lazy" width="100" height="100" src="https://img.icons8.com/ios-filled/100/city-buildings.png"
                         alt="city-buildings"> -->
-                    <img loading="lazy" class="icon" width="100" height="100" src="dream_gurukul/assets/icon/building.webp"
+                    <img loading="lazy" class="icon" width="100" height="100" src="dream_gurukul_madhyamgram/assets/icon/building.webp"
                         alt="skyscrapers" />
                     <br>
                     <p class="project-icon-text">6 Towers, G+7 Stories</p>
                 </div>
                 <div class="project-about-icon">
                     <!-- <img loading="lazy" width="100" height="100" src="https://img.icons8.com/ios-filled/100/bed.png" alt="bed"> -->
-                    <img loading="lazy" class="icon" width="120" height="120" src="dream_gurukul/assets/Key-01.png" alt="giving" />
+                    <img loading="lazy" class="icon" width="120" height="120" src="dream_gurukul_madhyamgram/assets/Key-01.png" alt="giving" />
                     <br>
                     <p class="project-icon-text">Possession 2027</p>
                 </div>
                 <div class="project-about-icon">
                     <!-- <img loading="lazy" width="100" height="100" src="https://img.icons8.com/ios-filled/100/screen-resolution.png"
                         alt="screen-resolution"> -->
-                    <img loading="lazy" class="icon" width="100" height="100" src="dream_gurukul/assets/icon/area.webp"
+                    <img loading="lazy" class="icon" width="100" height="100" src="dream_gurukul_madhyamgram/assets/icon/area.webp"
                         alt="resize-four-directions--v1" />
                     <br>
                     <p class="project-icon-text">860 sq.ft - 1290 sq.ft SBU</p>
                 </div>
                 <div class="project-about-icon">
                     <!-- <img loading="lazy" width="100" height="100" src="https://img.icons8.com/material-sharp/100/rupee.png" alt="rupee"> -->
-                    <img loading="lazy" class="icon" width="100" height="100" src="dream_gurukul/assets/icon/indian-rupee.png"
+                    <img loading="lazy" class="icon" width="100" height="100" src="dream_gurukul_madhyamgram/assets/icon/indian-rupee.png"
                         alt="rupee" />
                     <br>
                     <p class="project-icon-text">54 Lacs Onwards*</p>
@@ -355,10 +355,10 @@
                 <div class="carousel-container">
                     <div class="carousel-item">
                         <img loading="lazy" class="amenities-desktop-image"
-                            src="dream_gurukul/assets/amenities/amenities desktop/children park.webp"
+                            src="dream_gurukul_madhyamgram/assets/amenities/amenities desktop/children park.webp"
                             alt="Children Park">
                         <img loading="lazy" class="amenities-mobile-image"
-                            src="dream_gurukul/assets/amenities/amenities mobile/children park.webp"
+                            src="dream_gurukul_madhyamgram/assets/amenities/amenities mobile/children park.webp"
                             alt="Children Park">
                         <p class="amenities-name"><span class="material-symbols-outlined">
                                 sports_cricket
@@ -366,9 +366,9 @@
                     </div>
                     <div class="carousel-item">
                         <img loading="lazy" class="amenities-desktop-image"
-                            src="dream_gurukul/assets/amenities/amenities desktop/senior citizen corner.webp" alt="Senior Citizen Corner">
+                            src="dream_gurukul_madhyamgram/assets/amenities/amenities desktop/senior citizen corner.webp" alt="Senior Citizen Corner">
                         <img loading="lazy" class="amenities-mobile-image"
-                            src="dream_gurukul/assets/amenities/amenities mobile/senior citizen corner.webp"
+                            src="dream_gurukul_madhyamgram/assets/amenities/amenities mobile/senior citizen corner.webp"
                             alt="Senior Citizen Corner">
                         <p class="amenities-name"><span class="material-symbols-outlined">
                                 elderly
@@ -376,10 +376,10 @@
                     </div>
                     <div class="carousel-item">
                         <img loading="lazy" class="amenities-desktop-image"
-                            src="dream_gurukul/assets/amenities/amenities desktop/jogging track.webp"
+                            src="dream_gurukul_madhyamgram/assets/amenities/amenities desktop/jogging track.webp"
                             alt="Jogging & Cycling Track">
                         <img loading="lazy" class="amenities-mobile-image"
-                            src="dream_gurukul/assets/amenities/amenities mobile/jogging track.webp"
+                            src="dream_gurukul_madhyamgram/assets/amenities/amenities mobile/jogging track.webp"
                             alt="Jogging & Cycling Track">
                         <p class="amenities-name"><span class="material-symbols-outlined">
                                 directions_run
@@ -387,10 +387,10 @@
                     </div>
                     <div class="carousel-item">
                         <img loading="lazy" class="amenities-desktop-image"
-                            src="dream_gurukul/assets/amenities/amenities desktop/club ujjivan.webp"
+                            src="dream_gurukul_madhyamgram/assets/amenities/amenities desktop/club ujjivan.webp"
                             alt="Club Ujjivan">
                         <img loading="lazy" class="amenities-mobile-image"
-                            src="dream_gurukul/assets/amenities/amenities mobile/club ujjivan.webp"
+                            src="dream_gurukul_madhyamgram/assets/amenities/amenities mobile/club ujjivan.webp"
                             alt="Club Ujjivan">
                         <p class="amenities-name"><span class="material-symbols-outlined">
                                 self_improvement
@@ -398,19 +398,19 @@
                     </div>
                     <div class="carousel-item">
                         <img loading="lazy" class="amenities-desktop-image"
-                            src="dream_gurukul/assets/amenities/amenities desktop/library desktop.webp" alt="Library">
+                            src="dream_gurukul_madhyamgram/assets/amenities/amenities desktop/library desktop.webp" alt="Library">
                         <img loading="lazy" class="amenities-mobile-image"
-                            src="dream_gurukul/assets/amenities/amenities mobile/library mobile.webp" alt="Library">
+                            src="dream_gurukul_madhyamgram/assets/amenities/amenities mobile/library mobile.webp" alt="Library">
                         <p class="amenities-name"><span class="material-symbols-outlined">
                                 auto_stories
                             </span>Library</p>
                     </div>
                     <div class="carousel-item">
                         <img loading="lazy" class="amenities-desktop-image"
-                            src="dream_gurukul/assets/amenities/amenities desktop/swimming pool desktop.webp"
+                            src="dream_gurukul_madhyamgram/assets/amenities/amenities desktop/swimming pool desktop.webp"
                             alt="Swimming Pool">
                         <img loading="lazy" class="amenities-mobile-image"
-                            src="dream_gurukul/assets/amenities/amenities mobile/swimming pool mobile.webp"
+                            src="dream_gurukul_madhyamgram/assets/amenities/amenities mobile/swimming pool mobile.webp"
                             alt="Swimming Pool">
                         <p class="amenities-name"><span class="material-symbols-outlined">
                                 pool
@@ -418,10 +418,10 @@
                     </div>
                     <div class="carousel-item">
                         <img loading="lazy" class="amenities-desktop-image"
-                            src="dream_gurukul/assets/amenities/amenities desktop/gym desktop.webp"
+                            src="dream_gurukul_madhyamgram/assets/amenities/amenities desktop/gym desktop.webp"
                             alt="Conditioned Gymnasium">
                         <img loading="lazy" class="amenities-mobile-image"
-                            src="dream_gurukul/assets/amenities/amenities mobile/gym mobile.webp"
+                            src="dream_gurukul_madhyamgram/assets/amenities/amenities mobile/gym mobile.webp"
                             alt="Conditioned Gymnasium">
                         <p class="amenities-name"><span class="material-symbols-outlined">
                                 exercise
@@ -429,10 +429,10 @@
                     </div>
                     <div class="carousel-item">
                         <img loading="lazy" class="amenities-desktop-image"
-                            src="dream_gurukul/assets/amenities/amenities desktop/indoor games desktop.webp"
+                            src="dream_gurukul_madhyamgram/assets/amenities/amenities desktop/indoor games desktop.webp"
                             alt="Indoor Games Room">
                         <img loading="lazy" class="amenities-mobile-image"
-                            src="dream_gurukul/assets/amenities/amenities mobile/indoor games mobile.webp"
+                            src="dream_gurukul_madhyamgram/assets/amenities/amenities mobile/indoor games mobile.webp"
                             alt="Indoor Games Room">
                         <p class="amenities-name"><span class="material-symbols-outlined">
                                 sports_tennis
@@ -440,10 +440,10 @@
                     </div>
                     <div class="carousel-item">
                         <img loading="lazy" class="amenities-desktop-image"
-                            src="dream_gurukul/assets/amenities/amenities desktop/rooftop garden desktop.webp"
+                            src="dream_gurukul_madhyamgram/assets/amenities/amenities desktop/rooftop garden desktop.webp"
                             alt="Rooftop Garden">
                         <img loading="lazy" class="amenities-mobile-image"
-                            src="dream_gurukul/assets/amenities/amenities mobile/rooftop garden mobile.webp"
+                            src="dream_gurukul_madhyamgram/assets/amenities/amenities mobile/rooftop garden mobile.webp"
                             alt="Rooftop Garden">
                         <p class="amenities-name"><span class="material-symbols-outlined">
                                 deceased
@@ -451,9 +451,9 @@
                     </div>
                     <div class="carousel-item">
                         <img loading="lazy" class="amenities-desktop-image"
-                            src="dream_gurukul/assets/amenities/amenities desktop/miniplex.webp " alt="Mini Theatre">
+                            src="dream_gurukul_madhyamgram/assets/amenities/amenities desktop/miniplex.webp " alt="Mini Theatre">
                         <img loading="lazy" class="amenities-mobile-image"
-                            src="dream_gurukul/assets/amenities/amenities mobile/mini-theatre.webp"
+                            src="dream_gurukul_madhyamgram/assets/amenities/amenities mobile/mini-theatre.webp"
                             alt="Mini Theatre">
                         <p class="amenities-name"><span class="material-symbols-outlined">
                                 movie
@@ -461,19 +461,19 @@
                     </div>
                     <div class="carousel-item">
                         <img loading="lazy" class="amenities-desktop-image"
-                            src="dream_gurukul/assets/amenities/amenities desktop/banquet desktop.webp" alt="Banquet">
+                            src="dream_gurukul_madhyamgram/assets/amenities/amenities desktop/banquet desktop.webp" alt="Banquet">
                         <img loading="lazy" class="amenities-mobile-image"
-                            src="dream_gurukul/assets/amenities/amenities mobile/banquet mobile.webp" alt="Banquet">
+                            src="dream_gurukul_madhyamgram/assets/amenities/amenities mobile/banquet mobile.webp" alt="Banquet">
                         <p class="amenities-name"><span class="material-symbols-outlined">
                                 chair
                             </span>Banquet</p>
                     </div>
                     <!-- <div class="carousel-item">
                         <img loading="lazy" class="amenities-desktop-image"
-                            src="dream_gurukul/assets/amenities/amenities desktop/jooging track.webp"
+                            src="dream_gurukul_madhyamgram/assets/amenities/amenities desktop/jooging track.webp"
                             alt="Jogging & Cycling Track">
                         <img loading="lazy" class="amenities-mobile-image"
-                            src="dream_gurukul/assets/amenities/amenities mobile/jooging mobile.webp"
+                            src="dream_gurukul_madhyamgram/assets/amenities/amenities mobile/jooging mobile.webp"
                             alt="Jogging & Cycling Track">
                         <p class="amenities-name"><span class="material-symbols-outlined">
                                 directions_run
@@ -481,18 +481,18 @@
                     </div>
                     <div class="carousel-item">
                         <img loading="lazy" class="amenities-desktop-image"
-                            src="dream_gurukul/assets/amenities/amenities desktop/yoga.webp" alt="Yoga">
+                            src="dream_gurukul_madhyamgram/assets/amenities/amenities desktop/yoga.webp" alt="Yoga">
                         <img loading="lazy" class="amenities-mobile-image"
-                            src="dream_gurukul/assets/amenities/amenities mobile/yoga mobile.webp" alt="Yoga">
+                            src="dream_gurukul_madhyamgram/assets/amenities/amenities mobile/yoga mobile.webp" alt="Yoga">
                         <p class="amenities-name"><span class="material-symbols-outlined">
                                 self_improvement
                             </span>Yoga</p>
                     </div>
                     <div class="carousel-item">
                         <img loading="lazy" class="amenities-desktop-image"
-                            src="dream_gurukul/assets/amenities/amenities desktop/atm.webp" alt="ATM">
+                            src="dream_gurukul_madhyamgram/assets/amenities/amenities desktop/atm.webp" alt="ATM">
                         <img loading="lazy" class="amenities-mobile-image"
-                            src="dream_gurukul/assets/amenities/amenities mobile/ATM mobile.webp" alt="ATM">
+                            src="dream_gurukul_madhyamgram/assets/amenities/amenities mobile/ATM mobile.webp" alt="ATM">
                         <p class="amenities-name"><span class="material-symbols-outlined">
                                 credit_card
                             </span>ATM</p>
@@ -551,26 +551,26 @@
                             <p class="unit-plan-size">Tower A1+A2 Floor:1,3,5,7</p>
                             <button class="floor-plans-view-button" onclick="enquiryForm('floor plan')">View
                                 Plan</button>
-                            <img loading="lazy" src="dream_gurukul/assets/Floor and Master plans/Tower A1+A2.webp" alt="Floor Plan 1">
+                            <img loading="lazy" src="dream_gurukul_madhyamgram/assets/Floor and Master plans/Tower A1+A2.webp" alt="Floor Plan 1">
                         </div>
                         <div class="floor-plans-item">
                             <p class="unit-plan-size">Tower A1+A2 Floor:2,4,6</p>
                             <button class="floor-plans-view-button" onclick="enquiryForm('floor plan')">View
                                 Plan</button>
-                            <img loading="lazy" src="dream_gurukul/assets/Floor and Master plans/Tower A1+A2 2.webp"
+                            <img loading="lazy" src="dream_gurukul_madhyamgram/assets/Floor and Master plans/Tower A1+A2 2.webp"
                                 alt="Floor Plan 2">
                         </div>
                         <div class="floor-plans-item">
                             <p class="unit-plan-size">Tower B Floor:1,3,5,7</p>
                             <button class="floor-plans-view-button" onclick="enquiryForm('floor plan')">View
                                 Plan</button>
-                            <img loading="lazy" src="dream_gurukul/assets/Floor and Master plans/Tower B.webp" alt="Floor Plan 3">
+                            <img loading="lazy" src="dream_gurukul_madhyamgram/assets/Floor and Master plans/Tower B.webp" alt="Floor Plan 3">
                         </div>
                         <div class="floor-plans-item">
                             <p class="unit-plan-size">Tower B Floor:2,4,6</p>
                             <button class="floor-plans-view-button" onclick="enquiryForm('floor plan')">View
                                 Plan</button>
-                            <img loading="lazy" src="dream_gurukul/assets/Floor and Master plans/Tower B 2.webp" alt="Floor Plan 3">
+                            <img loading="lazy" src="dream_gurukul_madhyamgram/assets/Floor and Master plans/Tower B 2.webp" alt="Floor Plan 3">
                         </div>
                         <!-- Add more items as needed -->
                     </div>
@@ -582,13 +582,13 @@
                     </button>
                 </div>
                 <div class="thumbnail-strip">
-                    <img loading="lazy" src="dream_gurukul/assets/Floor and Master plans/Tower A1+A2.webp" alt="Floor Plan 1"
+                    <img loading="lazy" src="dream_gurukul_madhyamgram/assets/Floor and Master plans/Tower A1+A2.webp" alt="Floor Plan 1"
                         onclick="floorPlansShowSlide(0)">
-                    <img loading="lazy" src="dream_gurukul/assets/Floor and Master plans/Tower A1+A2 2.webp" alt="Floor Plan 2"
+                    <img loading="lazy" src="dream_gurukul_madhyamgram/assets/Floor and Master plans/Tower A1+A2 2.webp" alt="Floor Plan 2"
                         onclick="floorPlansShowSlide(1)">
-                    <img loading="lazy" src="dream_gurukul/assets/Floor and Master plans/Tower B.webp" alt="Floor Plan 3"
+                    <img loading="lazy" src="dream_gurukul_madhyamgram/assets/Floor and Master plans/Tower B.webp" alt="Floor Plan 3"
                         onclick="floorPlansShowSlide(2)">
-                    <img loading="lazy" src="dream_gurukul/assets/Floor and Master plans/Tower B 2.webp" alt="Floor Plan 3"
+                    <img loading="lazy" src="dream_gurukul_madhyamgram/assets/Floor and Master plans/Tower B 2.webp" alt="Floor Plan 3"
                         onclick="floorPlansShowSlide(3)">
                     <!-- Add more thumbnails as needed -->
                 </div>
@@ -600,13 +600,13 @@
                             <!-- <p class="unit-plan-size">London Cluster</p> -->
                             <button class="floor-plans-view-button" onclick="enquiryForm('floor plan')">View
                                 Plan</button>
-                            <img loading="lazy" src="dream_gurukul/assets/Floor and Master plans/Master Plan.jpg" alt="Master Plan 1">
+                            <img loading="lazy" src="dream_gurukul_madhyamgram/assets/Floor and Master plans/Master Plan.jpg" alt="Master Plan 1">
                         </div>
                         <!-- <div class="master-floor-plans-item">
                             <p class="unit-plan-size">Paris Cluster</p>
                             <button class="floor-plans-view-button" onclick="enquiryForm('floor plan')">View
                                 Plan</button>
-                            <img loading="lazy" src="dream_gurukul/assets/Floor and Master plans/paris master plan.jpg"
+                            <img loading="lazy" src="dream_gurukul_madhyamgram/assets/Floor and Master plans/paris master plan.jpg"
                                 alt="Master Plan 2">
                         </div> -->
                         <!-- Add more items as needed -->
@@ -621,9 +621,9 @@
                     </button> -->
                 </div>
                 <!-- <div class="thumbnail-strip" id="master-plan-strip">
-                    <img loading="lazy" src="dream_gurukul/assets/Floor and Master plans/master Plan London-01.jpg" alt="Master Plan 1"
+                    <img loading="lazy" src="dream_gurukul_madhyamgram/assets/Floor and Master plans/master Plan London-01.jpg" alt="Master Plan 1"
                         onclick="masterfloorPlansShowSlide(0)">
-                    <img loading="lazy" src="dream_gurukul/assets/Floor and Master plans/paris master plan.jpg" alt="Master Plan 2"
+                    <img loading="lazy" src="dream_gurukul_madhyamgram/assets/Floor and Master plans/paris master plan.jpg" alt="Master Plan 2"
                         onclick="masterfloorPlansShowSlide(1)">
                     Add more thumbnails as needed -->
                 <!-- </div> -->
@@ -644,58 +644,58 @@
             <!-- <div class="gallery-tab-content">
                 <div class="gallery-mobile-images">
                     <div class="img-container">
-                        <img loading="lazy" src="dream_gurukul/assets/gallery images/actual image/16.webp" alt="Image 1">
+                        <img loading="lazy" src="dream_gurukul_madhyamgram/assets/gallery images/actual image/16.webp" alt="Image 1">
                         <span class="material-symbols-outlined" id="zoom-icon">zoom_in
                         </span>
                     </div>
                     <div class="img-container">
-                        <img loading="lazy" src="dream_gurukul/assets/gallery images/actual image/2.webp" alt="Image 1">
+                        <img loading="lazy" src="dream_gurukul_madhyamgram/assets/gallery images/actual image/2.webp" alt="Image 1">
                         <span class="material-symbols-outlined" id="zoom-icon">zoom_in
                         </span>
                     </div>
                     <div class="img-container">
-                        <img loading="lazy" src="dream_gurukul/assets/gallery images/actual image/8.webp" alt="Image 1">
+                        <img loading="lazy" src="dream_gurukul_madhyamgram/assets/gallery images/actual image/8.webp" alt="Image 1">
                         <span class="material-symbols-outlined" id="zoom-icon">zoom_in
                         </span>
                     </div>
                 </div>
                 <div class="gallery-mobile-images">
                     <div class="img-container">
-                        <img loading="lazy" src="dream_gurukul/assets/gallery images/actual image/17.webp" alt="Image 3">
+                        <img loading="lazy" src="dream_gurukul_madhyamgram/assets/gallery images/actual image/17.webp" alt="Image 3">
                         <span class="material-symbols-outlined" id="zoom-icon">zoom_in
                         </span>
                     </div>
                     <div class="img-container">
-                        <img loading="lazy" src="dream_gurukul/assets/gallery images/actual image/10.webp" alt="Image 3">
+                        <img loading="lazy" src="dream_gurukul_madhyamgram/assets/gallery images/actual image/10.webp" alt="Image 3">
                         <span class="material-symbols-outlined" id="zoom-icon">zoom_in
                         </span>
                     </div>
                     <div class="img-container">
-                        <img loading="lazy" src="dream_gurukul/assets/gallery images/actual image/1.webp" alt="Image 1">
-                        <span class="material-symbols-outlined" id="zoom-icon">zoom_in
-                        </span>
-                    </div>
-                </div>
-                <div class="gallery-desktop-images">
-                    <div class="img-container">
-                        <img loading="lazy" src="dream_gurukul/assets/gallery images/actual image/1.webp" alt="Image 1">
-                        <span class="material-symbols-outlined" id="zoom-icon">zoom_in
-                        </span>
-                    </div>
-                    <div class="img-container">
-                        <img loading="lazy" src="dream_gurukul/assets/gallery images/actual image/2.webp" alt="Image 1">
+                        <img loading="lazy" src="dream_gurukul_madhyamgram/assets/gallery images/actual image/1.webp" alt="Image 1">
                         <span class="material-symbols-outlined" id="zoom-icon">zoom_in
                         </span>
                     </div>
                 </div>
                 <div class="gallery-desktop-images">
                     <div class="img-container">
-                        <img loading="lazy" src="dream_gurukul/assets/gallery images/actual image/3.webp" alt="Image 1">
+                        <img loading="lazy" src="dream_gurukul_madhyamgram/assets/gallery images/actual image/1.webp" alt="Image 1">
                         <span class="material-symbols-outlined" id="zoom-icon">zoom_in
                         </span>
                     </div>
                     <div class="img-container">
-                        <img loading="lazy" src="dream_gurukul/assets/gallery images/actual image/5.webp" alt="Image 1">
+                        <img loading="lazy" src="dream_gurukul_madhyamgram/assets/gallery images/actual image/2.webp" alt="Image 1">
+                        <span class="material-symbols-outlined" id="zoom-icon">zoom_in
+                        </span>
+                    </div>
+                </div>
+                <div class="gallery-desktop-images">
+                    <div class="img-container">
+                        <img loading="lazy" src="dream_gurukul_madhyamgram/assets/gallery images/actual image/3.webp" alt="Image 1">
+                        <span class="material-symbols-outlined" id="zoom-icon">zoom_in
+                        </span>
+                    </div>
+                    <div class="img-container">
+                        <img loading="lazy" src="dream_gurukul_madhyamgram/assets/gallery images/actual image/5.webp" alt="Image 1">
                         <span class="material-symbols-outlined" id="zoom-icon">zoom_in
                         </span>
                     </div>
@@ -703,24 +703,24 @@
                 </div>
                 <div class="gallery-desktop-images">
                     <div class="img-container">
-                        <img loading="lazy" src="dream_gurukul/assets/gallery images/actual image/8.webp" alt="Image 1">
+                        <img loading="lazy" src="dream_gurukul_madhyamgram/assets/gallery images/actual image/8.webp" alt="Image 1">
                         <span class="material-symbols-outlined" id="zoom-icon">zoom_in
                         </span>
                     </div>
                     <div class="img-container">
-                        <img loading="lazy" src="dream_gurukul/assets/gallery images/actual image/6.webp" alt="Image 1">
+                        <img loading="lazy" src="dream_gurukul_madhyamgram/assets/gallery images/actual image/6.webp" alt="Image 1">
                         <span class="material-symbols-outlined" id="zoom-icon">zoom_in
                         </span>
                     </div>
                 </div>
                 <div class="gallery-desktop-images">
                     <div class="img-container">
-                        <img loading="lazy" src="dream_gurukul/assets/gallery images/actual image/10.webp" alt="Image 3">
+                        <img loading="lazy" src="dream_gurukul_madhyamgram/assets/gallery images/actual image/10.webp" alt="Image 3">
                         <span class="material-symbols-outlined" id="zoom-icon">zoom_in
                         </span>
                     </div>
                     <div class="img-container">
-                        <img loading="lazy" src="dream_gurukul/assets/gallery images/actual image/7.webp" alt="Image 3">
+                        <img loading="lazy" src="dream_gurukul_madhyamgram/assets/gallery images/actual image/7.webp" alt="Image 3">
                         <span class="material-symbols-outlined" id="zoom-icon">zoom_in
                         </span>
                     </div>
@@ -730,19 +730,19 @@
             <div class="gallery-tab-content">
                 <div class="gallery-mobile-images">
                     <div class="img-container">
-                        <img loading="lazy" src="dream_gurukul/assets/gallery images/elevation/mobile/Dream Gurukul elevation vertical 1.webp"
+                        <img loading="lazy" src="dream_gurukul_madhyamgram/assets/gallery images/elevation/mobile/Dream Gurukul elevation vertical 1.webp"
                             alt="Image 3">
                         <span class="material-symbols-outlined" id="zoom-icon">zoom_in
                         </span>
                     </div>
                     <div class="img-container">
-                        <img loading="lazy" src="dream_gurukul/assets/gallery images/elevation/mobile/Dream Gurukul elevation vertical 10.webp"
+                        <img loading="lazy" src="dream_gurukul_madhyamgram/assets/gallery images/elevation/mobile/Dream Gurukul elevation vertical 10.webp"
                             alt="Image 1">
                         <span class="material-symbols-outlined" id="zoom-icon">zoom_in
                         </span>
                     </div>
                     <div class="img-container">
-                        <img loading="lazy" src="dream_gurukul/assets/gallery images/elevation/mobile/Dream Gurukul elevation vertical 7.webp"
+                        <img loading="lazy" src="dream_gurukul_madhyamgram/assets/gallery images/elevation/mobile/Dream Gurukul elevation vertical 7.webp"
                             alt="Image 1">
                         <span class="material-symbols-outlined" id="zoom-icon">zoom_in
                         </span>
@@ -750,19 +750,19 @@
                 </div>
                 <div class="gallery-mobile-images">
                     <div class="img-container">
-                        <img loading="lazy" src="dream_gurukul/assets/gallery images/elevation/mobile/Dream Gurukul elevation vertical 4.webp"
+                        <img loading="lazy" src="dream_gurukul_madhyamgram/assets/gallery images/elevation/mobile/Dream Gurukul elevation vertical 4.webp"
                             alt="Image 1">
                         <span class="material-symbols-outlined" id="zoom-icon">zoom_in
                         </span>
                     </div>
                     <div class="img-container">
-                        <img loading="lazy" src="dream_gurukul/assets/gallery images/elevation/mobile/Dream Gurukul elevation vertical 5.webp"
+                        <img loading="lazy" src="dream_gurukul_madhyamgram/assets/gallery images/elevation/mobile/Dream Gurukul elevation vertical 5.webp"
                             alt="Image 1">
                         <span class="material-symbols-outlined" id="zoom-icon">zoom_in
                         </span>
                     </div>
                     <div class="img-container">
-                        <img loading="lazy" src="dream_gurukul/assets/gallery images/elevation/mobile/Dream Gurukul elevation vertical 6.webp"
+                        <img loading="lazy" src="dream_gurukul_madhyamgram/assets/gallery images/elevation/mobile/Dream Gurukul elevation vertical 6.webp"
                             alt="Image 1">
                         <span class="material-symbols-outlined" id="zoom-icon">zoom_in
                         </span>
@@ -770,13 +770,13 @@
                 </div>
                 <div class="gallery-desktop-images">
                     <div class="img-container">
-                        <img loading="lazy" src="dream_gurukul/assets/gallery images/elevation/desktop/Dream Gurukul Elevation Landscape-17.webp"
+                        <img loading="lazy" src="dream_gurukul_madhyamgram/assets/gallery images/elevation/desktop/Dream Gurukul Elevation Landscape-17.webp"
                             alt="Image 3">
                         <span class="material-symbols-outlined" id="zoom-icon">zoom_in
                         </span>
                     </div>
                     <div class="img-container">
-                        <img loading="lazy" src="dream_gurukul/assets/gallery images/elevation/desktop/Dream Gurukul Elevation Landscape-18.webp"
+                        <img loading="lazy" src="dream_gurukul_madhyamgram/assets/gallery images/elevation/desktop/Dream Gurukul Elevation Landscape-18.webp"
                             alt="Image 1">
                         <span class="material-symbols-outlined" id="zoom-icon">zoom_in
                         </span>
@@ -784,13 +784,13 @@
                 </div>
                 <div class="gallery-desktop-images">
                     <div class="img-container">
-                        <img loading="lazy" src="dream_gurukul/assets/gallery images/elevation/desktop/Dream Gurukul Elevation Landscape-20.webp"
+                        <img loading="lazy" src="dream_gurukul_madhyamgram/assets/gallery images/elevation/desktop/Dream Gurukul Elevation Landscape-20.webp"
                             alt="Image 1">
                         <span class="material-symbols-outlined" id="zoom-icon">zoom_in
                         </span>
                     </div>
                     <div class="img-container">
-                        <img loading="lazy" src="dream_gurukul/assets/gallery images/elevation/desktop/Dream Gurukul Elevation Landscape-21.webp"
+                        <img loading="lazy" src="dream_gurukul_madhyamgram/assets/gallery images/elevation/desktop/Dream Gurukul Elevation Landscape-21.webp"
                             alt="Image 1">
                         <span class="material-symbols-outlined" id="zoom-icon">zoom_in
                         </span>
@@ -798,13 +798,13 @@
                 </div>
                 <div class="gallery-desktop-images">
                     <div class="img-container">
-                        <img loading="lazy" src="dream_gurukul/assets/gallery images/elevation/desktop/Dream Gurukul Elevation Landscape-22.webp"
+                        <img loading="lazy" src="dream_gurukul_madhyamgram/assets/gallery images/elevation/desktop/Dream Gurukul Elevation Landscape-22.webp"
                             alt="Image 3">
                         <span class="material-symbols-outlined" id="zoom-icon">zoom_in
                         </span>
                     </div>
                     <div class="img-container">
-                        <img loading="lazy" src="dream_gurukul/assets/gallery images/elevation/desktop/Dream Gurukul Elevation Landscape-16.webp"
+                        <img loading="lazy" src="dream_gurukul_madhyamgram/assets/gallery images/elevation/desktop/Dream Gurukul Elevation Landscape-16.webp"
                             alt="Image 1">
                         <span class="material-symbols-outlined" id="zoom-icon">zoom_in
                         </span>
@@ -812,13 +812,13 @@
                 </div>
                 <div class="gallery-desktop-images">
                     <div class="img-container">
-                        <img loading="lazy" src="dream_gurukul/assets/gallery images/elevation/desktop/Dream Gurukul Elevation Landscape-23.webp"
+                        <img loading="lazy" src="dream_gurukul_madhyamgram/assets/gallery images/elevation/desktop/Dream Gurukul Elevation Landscape-23.webp"
                             alt="Image 1">
                         <span class="material-symbols-outlined" id="zoom-icon">zoom_in
                         </span>
                     </div>
                     <div class="img-container">
-                        <img loading="lazy" src="dream_gurukul/assets/gallery images/elevation/desktop/Dream-Gurukul-Elevation-Landscape-15.webp"
+                        <img loading="lazy" src="dream_gurukul_madhyamgram/assets/gallery images/elevation/desktop/Dream-Gurukul-Elevation-Landscape-15.webp"
                             alt="Image 1">
                         <span class="material-symbols-outlined" id="zoom-icon">zoom_in
                         </span>
@@ -828,92 +828,92 @@
             <div class="gallery-tab-content">
                 <div class="gallery-mobile-images">
                     <div class="img-container">
-                        <img loading="lazy" src="dream_gurukul/assets/gallery images/interior/Living room.webp" alt="Image 3">
+                        <img loading="lazy" src="dream_gurukul_madhyamgram/assets/gallery images/interior/Living room.webp" alt="Image 3">
                         <span class="material-symbols-outlined" id="zoom-icon">zoom_in
                         </span>
                     </div>
                     <div class="img-container">
-                        <img loading="lazy" src="dream_gurukul/assets/gallery images/interior/1st bedroom 1.webp" alt="Image 1">
+                        <img loading="lazy" src="dream_gurukul_madhyamgram/assets/gallery images/interior/1st bedroom 1.webp" alt="Image 1">
                         <span class="material-symbols-outlined" id="zoom-icon">zoom_in
                         </span>
                     </div>
                     <div class="img-container">
-                        <img loading="lazy" src="dream_gurukul/assets/gallery images/interior/Master bedroom.webp" alt="Image 3">
+                        <img loading="lazy" src="dream_gurukul_madhyamgram/assets/gallery images/interior/Master bedroom.webp" alt="Image 3">
                         <span class="material-symbols-outlined" id="zoom-icon">zoom_in
                         </span>
                     </div>
                     <div class="img-container">
-                        <img loading="lazy" src="dream_gurukul/assets/gallery images/interior/Toilet.webp" alt="Image 3">
+                        <img loading="lazy" src="dream_gurukul_madhyamgram/assets/gallery images/interior/Toilet.webp" alt="Image 3">
                         <span class="material-symbols-outlined" id="zoom-icon">zoom_in
                         </span>
                     </div>
                 </div>
                 <div class="gallery-mobile-images">
                     <div class="img-container">
-                        <img loading="lazy" src="dream_gurukul/assets/gallery images/interior/Living room 1.webp" alt="Image 3">
+                        <img loading="lazy" src="dream_gurukul_madhyamgram/assets/gallery images/interior/Living room 1.webp" alt="Image 3">
                         <span class="material-symbols-outlined" id="zoom-icon">zoom_in
                         </span>
                     </div>
                     <div class="img-container">
-                        <img loading="lazy" src="dream_gurukul/assets/gallery images/interior/1st bedroom.webp" alt="Image 3">
+                        <img loading="lazy" src="dream_gurukul_madhyamgram/assets/gallery images/interior/1st bedroom.webp" alt="Image 3">
                         <span class="material-symbols-outlined" id="zoom-icon">zoom_in
                         </span>
                     </div>
                     <div class="img-container">
-                        <img loading="lazy" src="dream_gurukul/assets/gallery images/interior/kitchen.webp" alt="Image 3">
+                        <img loading="lazy" src="dream_gurukul_madhyamgram/assets/gallery images/interior/kitchen.webp" alt="Image 3">
                         <span class="material-symbols-outlined" id="zoom-icon">zoom_in
                         </span>
                     </div>
                     <div class="img-container">
-                        <img loading="lazy" src="dream_gurukul/assets/gallery images/interior/2nd bathroom.webp" alt="Image 3">
-                        <span class="material-symbols-outlined" id="zoom-icon">zoom_in
-                        </span>
-                    </div>
-                </div>
-                <div class="gallery-desktop-images">
-                    <div class="img-container">
-                        <img loading="lazy" src="dream_gurukul/assets/gallery images/interior/Living room.webp" alt="Image 3">
-                        <span class="material-symbols-outlined" id="zoom-icon">zoom_in
-                        </span>
-                    </div>
-                    <div class="img-container">
-                        <img loading="lazy" src="dream_gurukul/assets/gallery images/interior/1st bedroom.webp" alt="Image 3">
+                        <img loading="lazy" src="dream_gurukul_madhyamgram/assets/gallery images/interior/2nd bathroom.webp" alt="Image 3">
                         <span class="material-symbols-outlined" id="zoom-icon">zoom_in
                         </span>
                     </div>
                 </div>
                 <div class="gallery-desktop-images">
                     <div class="img-container">
-                        <img loading="lazy" src="dream_gurukul/assets/gallery images/interior/Living room 1.webp" alt="Image 3">
+                        <img loading="lazy" src="dream_gurukul_madhyamgram/assets/gallery images/interior/Living room.webp" alt="Image 3">
                         <span class="material-symbols-outlined" id="zoom-icon">zoom_in
                         </span>
                     </div>
                     <div class="img-container">
-                        <img loading="lazy" src="dream_gurukul/assets/gallery images/interior/1st bedroom 1.webp" alt="Image 3">
-                        <span class="material-symbols-outlined" id="zoom-icon">zoom_in
-                        </span>
-                    </div>
-                </div>
-                <div class="gallery-desktop-images">
-                    <div class="img-container">
-                        <img loading="lazy" src="dream_gurukul/assets/gallery images/interior/Master bedroom.webp" alt="Image 3">
-                        <span class="material-symbols-outlined" id="zoom-icon">zoom_in
-                        </span>
-                    </div>
-                    <div class="img-container">
-                        <img loading="lazy" src="dream_gurukul/assets/gallery images/interior/kitchen.webp" alt="Image 3">
+                        <img loading="lazy" src="dream_gurukul_madhyamgram/assets/gallery images/interior/1st bedroom.webp" alt="Image 3">
                         <span class="material-symbols-outlined" id="zoom-icon">zoom_in
                         </span>
                     </div>
                 </div>
                 <div class="gallery-desktop-images">
                     <div class="img-container">
-                        <img loading="lazy" src="dream_gurukul/assets/gallery images/interior/2nd bathroom.webp" alt="Image 3">
+                        <img loading="lazy" src="dream_gurukul_madhyamgram/assets/gallery images/interior/Living room 1.webp" alt="Image 3">
                         <span class="material-symbols-outlined" id="zoom-icon">zoom_in
                         </span>
                     </div>
                     <div class="img-container">
-                        <img loading="lazy" src="dream_gurukul/assets/gallery images/interior/Toilet.webp" alt="Image 3">
+                        <img loading="lazy" src="dream_gurukul_madhyamgram/assets/gallery images/interior/1st bedroom 1.webp" alt="Image 3">
+                        <span class="material-symbols-outlined" id="zoom-icon">zoom_in
+                        </span>
+                    </div>
+                </div>
+                <div class="gallery-desktop-images">
+                    <div class="img-container">
+                        <img loading="lazy" src="dream_gurukul_madhyamgram/assets/gallery images/interior/Master bedroom.webp" alt="Image 3">
+                        <span class="material-symbols-outlined" id="zoom-icon">zoom_in
+                        </span>
+                    </div>
+                    <div class="img-container">
+                        <img loading="lazy" src="dream_gurukul_madhyamgram/assets/gallery images/interior/kitchen.webp" alt="Image 3">
+                        <span class="material-symbols-outlined" id="zoom-icon">zoom_in
+                        </span>
+                    </div>
+                </div>
+                <div class="gallery-desktop-images">
+                    <div class="img-container">
+                        <img loading="lazy" src="dream_gurukul_madhyamgram/assets/gallery images/interior/2nd bathroom.webp" alt="Image 3">
+                        <span class="material-symbols-outlined" id="zoom-icon">zoom_in
+                        </span>
+                    </div>
+                    <div class="img-container">
+                        <img loading="lazy" src="dream_gurukul_madhyamgram/assets/gallery images/interior/Toilet.webp" alt="Image 3">
                         <span class="material-symbols-outlined" id="zoom-icon">zoom_in
                         </span>
                     </div>
@@ -1202,8 +1202,8 @@
         <div class="map">
             <h1>Location</h1>
             <!-- <button class="map-text" id="view-map-btn">Click to view on Google Map</button>
-            <img loading="lazy" class="map-desktop" src="dream_gurukul/assets/map.webp" alt="map" id="map-image-desktop">
-            <img loading="lazy" class="map-mobile" src="dream_gurukul/assets/map portrait.webp" alt="map" id="map-image-mobile">
+            <img loading="lazy" class="map-desktop" src="dream_gurukul_madhyamgram/assets/map.webp" alt="map" id="map-image-desktop">
+            <img loading="lazy" class="map-mobile" src="dream_gurukul_madhyamgram/assets/map portrait.webp" alt="map" id="map-image-mobile">
             <button class="google-map-text" id="go-back-btn" style="display:none;">Go Back</button>
             <div id="skeleton-loader" class="skeleton-loader"></div> -->
             <iframe
@@ -1218,7 +1218,7 @@
         <h1>Project Overview Video</h1>
         <div class="video-container">
             <div class="video-thumbnail" id="video-thumbnail">
-                <img loading="lazy" src="dream_gurukul/assets/Video Thumbnail.webp" alt="Video Thumbnail" id="thumbnail-image">
+                <img loading="lazy" src="dream_gurukul_madhyamgram/assets/Video Thumbnail.webp" alt="Video Thumbnail" id="thumbnail-image">
                 <div class="play-button" id="play-button">▶</div>
             </div>
             <div class="video-wrapper" id="video-wrapper">
@@ -1235,15 +1235,15 @@
         <h1>Home Loan Available From</h1>
         <div class="bank-logos">
             <div>
-                <img loading="lazy" src="dream_gurukul/assets/bank/HDFC logo.svg" alt="Bank 1">
-                <img loading="lazy" src="dream_gurukul/assets/bank/DHFL Logo.png" alt="Bank 2">
-                <img loading="lazy" src="dream_gurukul/assets/bank/icici bank logo.png" alt="Bank 3">
-                <img loading="lazy" src="dream_gurukul/assets/bank/IDBI Logo.png" alt="Bank 4">
+                <img loading="lazy" src="dream_gurukul_madhyamgram/assets/bank/HDFC logo.svg" alt="Bank 1">
+                <img loading="lazy" src="dream_gurukul_madhyamgram/assets/bank/DHFL Logo.png" alt="Bank 2">
+                <img loading="lazy" src="dream_gurukul_madhyamgram/assets/bank/icici bank logo.png" alt="Bank 3">
+                <img loading="lazy" src="dream_gurukul_madhyamgram/assets/bank/IDBI Logo.png" alt="Bank 4">
             </div>
-            <div><img loading="lazy" src="dream_gurukul/assets/bank/LIC HFL Logo.png" alt="Bank 5">
-                <img loading="lazy" src="dream_gurukul/assets/bank/Pnb Hfl logo.png" alt="Bank 6">
-                <img loading="lazy" src="dream_gurukul/assets/bank/Tata Capital logo.png" alt="Bank 7">
-                <img loading="lazy" src="dream_gurukul/assets/bank/PNB Logo.png" alt="Bank 8">
+            <div><img loading="lazy" src="dream_gurukul_madhyamgram/assets/bank/LIC HFL Logo.png" alt="Bank 5">
+                <img loading="lazy" src="dream_gurukul_madhyamgram/assets/bank/Pnb Hfl logo.png" alt="Bank 6">
+                <img loading="lazy" src="dream_gurukul_madhyamgram/assets/bank/Tata Capital logo.png" alt="Bank 7">
+                <img loading="lazy" src="dream_gurukul_madhyamgram/assets/bank/PNB Logo.png" alt="Bank 8">
             </div>
         </div>
     </section>
@@ -1251,40 +1251,40 @@
         <h1>Our Legacy</h1>
         <div class="legacy-stats">
             <div class="stat">
-                <img loading="lazy" class="icon" width="100" height="100" src="dream_gurukul/assets/icon/building.webp"
+                <img loading="lazy" class="icon" width="100" height="100" src="dream_gurukul_madhyamgram/assets/icon/building.webp"
                     alt="skyscrapers" />
                 <p><strong>7</strong><br>Million sq.ft. Developed</p>
             </div>
             <div class="stat">
-                <img loading="lazy" class="icon" width="100" height="100" src="dream_gurukul/assets/icon/construction.webp"
+                <img loading="lazy" class="icon" width="100" height="100" src="dream_gurukul_madhyamgram/assets/icon/construction.webp"
                     alt="constructing" />
                 <p><strong>20</strong><br>Million sq.ft. under Planning and Development</p>
             </div>
             <div class="stat">
-                <img loading="lazy" class="icon" width="100" height="100" src="dream_gurukul/assets/icon/happy customer.webp"
+                <img loading="lazy" class="icon" width="100" height="100" src="dream_gurukul_madhyamgram/assets/icon/happy customer.webp"
                     alt="batch-assign" />
                 <p><strong>7000</strong><br>Happy Customers</p>
             </div>
             <div class="stat">
-                <img loading="lazy" class="icon" width="100" height="100" src="dream_gurukul/assets/icon/trophy.webp" alt="trophy" />
+                <img loading="lazy" class="icon" width="100" height="100" src="dream_gurukul_madhyamgram/assets/icon/trophy.webp" alt="trophy" />
                 <p><strong>40+</strong><br>Industry Awards and Recognitions</p>
             </div>
             <div class="stat">
-                <img loading="lazy" class="icon" width="100" height="100" src="dream_gurukul/assets/icon/reputation.webp"
+                <img loading="lazy" class="icon" width="100" height="100" src="dream_gurukul_madhyamgram/assets/icon/reputation.webp"
                     alt="handshake-heart" />
                 <p>Reputed Name in Real Estate, Hospitality & Finance Sectors</p>
             </div>
             <div class="stat">
-                <img loading="lazy" class="custom-icon" width="100" height="100" src="dream_gurukul/assets/Key-01.png" alt="giving" />
+                <img loading="lazy" class="custom-icon" width="100" height="100" src="dream_gurukul_madhyamgram/assets/Key-01.png" alt="giving" />
                 <p>Over 2 Decades of Delivering Excellence</p>
             </div>
             <div class="stat">
-                <img loading="lazy" class="icon" width="100" height="100" src="dream_gurukul/assets/icon/family.webp"
+                <img loading="lazy" class="icon" width="100" height="100" src="dream_gurukul_madhyamgram/assets/icon/family.webp"
                     alt="family--v1" />
                 <p><strong>7000+</strong><br>Happy Families</p>
             </div>
             <div class="stat">
-                <img loading="lazy" class="icon" width="100" height="100" src="dream_gurukul/assets/icon/building quality.webp"
+                <img loading="lazy" class="icon" width="100" height="100" src="dream_gurukul_madhyamgram/assets/icon/building quality.webp"
                     alt="best-seller" />
                 <p>Known for Our Commitment to Quality</p>
             </div>
@@ -1294,7 +1294,7 @@
     <footer>
         <div>
             <section class="developer-office">
-                <img loading="lazy" src="dream_gurukul/assets/jaingroup.webp" alt="Jain Group Logo">
+                <img loading="lazy" src="dream_gurukul_madhyamgram/assets/jaingroup.webp" alt="Jain Group Logo">
                 <h3>Developer Office</h3>
                 <p>Jain Tower, 44/2A, Hazra Road</p>
                 <p>Near Dover Road Crossing, Kolkata - 700019</p>
@@ -1370,7 +1370,7 @@
             document.getElementById("target").value = target.toString();
         });
     </script>
-    <script src="dream_gurukul/script.js" ype="text/javascript"></script>
+    <script src="dream_gurukul_madhyamgram/script.js" ype="text/javascript"></script>
 </body>
 
 </html>
