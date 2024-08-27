@@ -7,7 +7,7 @@ $name = isset($_REQUEST["name"]) ? $_REQUEST["name"] : '';
 $email = isset($_REQUEST["email"]) ? $_REQUEST["email"] : '';
 $contact = isset($_REQUEST["phone"]) ? $_REQUEST["phone"] : '';
 $enquiryType = isset($_REQUEST["enquiry_type"]) ? $_REQUEST["enquiry_type"] : '';
-$project = "Dream World City";
+$project = "Dream Gurukul";
 $utm_source = isset($_REQUEST["utm_source"]) ? $_REQUEST["utm_source"] : '';
 $utm_medium = isset($_REQUEST["utm_medium"]) ? $_REQUEST["utm_medium"] : '';
 $utm_content = isset($_REQUEST["utm_content"]) ? $_REQUEST["utm_content"] : '';
@@ -74,6 +74,6 @@ curl_close($ch);
 // Add debugging
 error_log("Redirecting to thank you page with: name=$name, email=$email, phone=$contact, enquiryType=$enquiryType");
 
-header("Location: https://thejaingroup.co.in/dream_world_city/thankYou.php?name=" . urlencode($name) . "&email=" . urlencode($email) . "&phone=" . urlencode($contact) . "&enquiryType=" . urlencode($enquiryType));
+header("Location: https://thejaingroup.com/dream_gurukul_madhyamgram/thankYou.php?name=" . urlencode($name) . "&email=" . urlencode($email) . "&phone=" . urlencode($contact) . "&enquiryType=" . urlencode($enquiryType));
 exit();
 ?>

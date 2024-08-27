@@ -290,7 +290,7 @@
         }
 
         @media (max-width: 380px) {
-            
+
             body {
                 height: auto;
                 overflow: auto;
@@ -313,12 +313,12 @@
             .body-text{
                 max-width: 95%;
             }
-            
+
             .thank-you{
                 font-size: 3rem;
                 margin-bottom: 28px;
             }
-            
+
             .btn-home{
                 font-size: 1rem;
             }
@@ -338,7 +338,7 @@
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TN95X483"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
-    
+
     <nav>
         <ul>
             <li><img class="dwc-logo" src="assets/dream Gurukul logo light color.png" alt=""></li>
@@ -354,8 +354,8 @@
         provided mobile
         number <strong>+91<span id="phone"></span></strong> to discuss your preferences and requirements.</p>
     <p><span id="brochure"></span></p>
-    <a href="https://thejaingroup.co.in/dream_gurukul_madhyamgram.php" class="btn-home">Return to Homepage</a>
-    <a href="https://thejaingroup.co.in/dream_gurukul_madhyamgram.php" class="back-button"><span class="material-symbols-outlined">
+    <a href="https://thejaingroup.com/dream_gurukul_madhyamgram.php" class="btn-home">Return to Homepage</a>
+    <a href="https://thejaingroup.com/dream_gurukul_madhyamgram.php" class="back-button"><span class="material-symbols-outlined">
             redo
         </span>Return to Homepage</a>
     <br><br>
