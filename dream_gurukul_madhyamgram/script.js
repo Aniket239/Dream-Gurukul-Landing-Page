@@ -830,12 +830,12 @@ function prevLocation() {
 
 function resetLocationInterval() {
     clearInterval(locationInterval);
-    locationInterval = setInterval(nextLocation, slideIntervalTime);
+    locationInterval = setInterval(nextLocation, 100000000000);
 }
 
 function startLocationSlider() {
     showLocation(currentLocation); // Initial call to display the first slide
-    locationInterval = setInterval(nextLocation, slideIntervalTime);
+    locationInterval = setInterval(nextLocation, 100000000000);
 }
 
 function stopLocationSlider() {
@@ -864,6 +864,41 @@ document.addEventListener('DOMContentLoaded', () => {
 
     observer.observe(locationMapSection);
 });
+
+// Get the modal
+var floorPlanModal = document.getElementById("imageModal");
+
+// Get the modal image
+var modalImg = document.getElementById("modalImage");
+
+// Function to open the modal and display the image
+function openModal(src) {
+    floorPlanModal.style.display = "block";
+    modalImg.src = src;
+}
+
+// Function to close the modal
+function closeModal() {
+    floorPlanModal.style.display = "none";
+}
+
+// Add click event listeners to all floor plan images
+document.querySelectorAll('.floor-plans-item img, .master-floor-plans-item img').forEach(function(img) {
+    img.addEventListener('click', function() {
+        console.log(this.src); // Log the src of the clicked image
+        openModal(this.src);
+    });
+});
+
+// ======================= gallery zoom ==================================
+
+document.querySelectorAll('.gallery-images .img-container img').forEach(function(galleryImg) {
+    galleryImg.addEventListener('click', function() {
+        console.log("Clicked gallery image source:", this.src); // Log the src of the clicked image
+        openModal(this.src);
+    });
+});
+
 
 // ============================ project video ===============================
 

@@ -74,6 +74,6 @@ curl_close($ch);
 // Add debugging
 error_log("Redirecting to thank you page with: name=$name, email=$email, phone=$contact, enquiryType=$enquiryType");
 
-header("Location: https://thejaingroup.com/dream_gurukul_madhyamgram/thankYou.php?name=" . urlencode($name) . "&email=" . urlencode($email) . "&phone=" . urlencode($contact) . "&enquiryType=" . urlencode($enquiryType));
+header("Location: https://thejaingroup.com/dream_gurukul_madhyamgram/thankYou.html?name=" . urlencode($name) . "&email=" . urlencode($email) . "&phone=" . urlencode($contact) . "&enquiryType=" . urlencode($enquiryType));
 exit();
 ?>

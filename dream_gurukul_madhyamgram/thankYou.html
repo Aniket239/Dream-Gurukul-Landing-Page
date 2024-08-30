@@ -385,7 +385,8 @@
         }
         function displayUserDetails() {
             const params = getQueryParams();
-            const name = `${params.name || ''}`;
+            var name = `${params.name || ''}`;
+            name.replace("+"," ");
             const phone = `${params.phone || ''}`;
             const email = `${params.email || ''}`;
             const enquiry_type = `${params.enquiryType || ''}`;
@@ -396,11 +397,11 @@
                 document.querySelector('.btn-home').innerHTML = "<strong>Download Brochure</strong>";
                 document.querySelector('.back-button').style.display = 'flex';
             }
-            else if (enquiry_type == 'floor+plan') {
-                document.querySelector('.btn-home').href = 'https://onedrive.live.com/download?resid=DDAF5DF6F5777143%21194&authkey=!ABSrkkB3eoMUgwc&em=2'
-                document.querySelector('.btn-home').innerHTML = "<strong>Download Floor Plans</strong>";
-                document.querySelector('.back-button').style.display = 'flex';
-            }
+            // else if (enquiry_type == 'floor+plan') {
+            //     document.querySelector('.btn-home').href = 'https://onedrive.live.com/download?resid=DDAF5DF6F5777143%21194&authkey=!ABSrkkB3eoMUgwc&em=2'
+            //     document.querySelector('.btn-home').innerHTML = "<strong>Download Floor Plans</strong>";
+            //     document.querySelector('.back-button').style.display = 'flex';
+            // }
         }
         displayUserDetails();
     </script>
