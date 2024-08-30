@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+
     <!-- Google Tag Manager -->
     <script>(function (w, d, s, l, i) {
             w[l] = w[l] || []; w[l].push({
@@ -12,9 +13,6 @@
                     'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
         })(window, document, 'script', 'dataLayer', 'GTM-WTJ9J92W');</script>
     <!-- End Google Tag Manager -->
-
-
-    Meta Tags:
 
     <!-- Primary Meta Tags -->
     <title>Dream Gurukul | 2/3 BHK Flats in Madhyamgram</title>
@@ -41,7 +39,8 @@
         content="Dream Gurukul - A Project By Jain Group offering affordable 2 & 3 BHK Starting 54 Lakh in Madhyamgra,. Just 10 min from Kolkata Airport." />
     <meta property="twitter:image"
         content="dream_gurukul_madhyamgram\assets\gallery images\elevation\desktop\desktop 5.webp"     />
-        
+
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="dream_gurukul_madhyamgram/assets/favicon/favicon.ico">
@@ -60,7 +59,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-    <title>Dream World City</title>
+    <!-- <title>Dream World City</title> -->
     <link rel="stylesheet" href="dream_gurukul_madhyamgram/style.css">
 </head>
 
@@ -124,8 +123,30 @@
         </ul>
     </div>
     <main id="main">
-
+        <div id="desktop-main" class="desktop-main">
+            <div class="carousel-slide">
+                <img src="dream_gurukul_madhyamgram/assets/dream-gurukul-landing-page-landscape-english-1.webp" alt="" loading="lazy">
+            </div>
+            <div class="carousel-slide">
+                <img src="dream_gurukul_madhyamgram/assets/dream-gurukul-landing-page-landscape-english-2.webp" alt="" loading="lazy">
+            </div>
+            <div class="carousel-slide">
+                <img src="dream_gurukul_madhyamgram/assets/dream-gurukul-landing-page-landscape-english-3.webp" alt="" loading="lazy">
+            </div>
+        </div>
+        <div id="mobile-main" class="mobile-main">
+            <div class="carousel-slide">
+                <img src="dream_gurukul_madhyamgram/assets/dream-gurukul-landing-page-portrait-english-1.webp" alt="" loading="lazy">
+            </div>
+            <div class="carousel-slide">
+                <img src="dream_gurukul_madhyamgram/assets/dream-gurukul-landing-page-portrait-english-2.webp" alt="" loading="lazy">
+            </div>
+            <div class="carousel-slide">
+                <img src="dream_gurukul_madhyamgram/assets/dream-gurukul-landing-page-portrait-english-3.webp" alt="" loading="lazy">
+            </div>
+        </div>
     </main>
+    
     <div class="form-container" id="form-container">
         <form class="enquiry-form" action="dream_gurukul_madhyamgram/form_submit.php" method="post">
             <input id="utm_form_name" name="utm_form_name" type="hidden" value="registration">
@@ -1301,14 +1322,14 @@
         <div class="bank-logos">
             <div>
                 <img loading="lazy" src="dream_gurukul_madhyamgram/assets/bank/HDFC logo.svg" alt="Bank 1">
-                <img loading="lazy" src="dream_gurukul_madhyamgram/assets/bank/DHFL Logo.png" alt="Bank 2">
+                <img loading="lazy" src="dream_gurukul_madhyamgram/assets/bank/axis.png" alt="Bank 2">
                 <img loading="lazy" src="dream_gurukul_madhyamgram/assets/bank/icici bank logo.png" alt="Bank 3">
-                <img loading="lazy" src="dream_gurukul_madhyamgram/assets/bank/IDBI Logo.png" alt="Bank 4">
+                <img loading="lazy" src="dream_gurukul_madhyamgram/assets/bank/Canara.svg" alt="Bank 4">
             </div>
             <div><img loading="lazy" src="dream_gurukul_madhyamgram/assets/bank/LIC HFL Logo.png" alt="Bank 5">
-                <img loading="lazy" src="dream_gurukul_madhyamgram/assets/bank/Pnb Hfl logo.png" alt="Bank 6">
-                <img loading="lazy" src="dream_gurukul_madhyamgram/assets/bank/Tata Capital logo.png" alt="Bank 7">
-                <img loading="lazy" src="dream_gurukul_madhyamgram/assets/bank/PNB Logo.png" alt="Bank 8">
+                <img loading="lazy" src="dream_gurukul_madhyamgram/assets/bank/karnataka.png" alt="Bank 6">
+                <img loading="lazy" src="dream_gurukul_madhyamgram/assets/bank/sbi.png" alt="Bank 7">
+                <!-- <img loading="lazy" src="dream_gurukul_madhyamgram/assets/bank/PNB Logo.png" alt="Bank 8"> -->
             </div>
         </div>
     </section>

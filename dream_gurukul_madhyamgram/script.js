@@ -212,6 +212,68 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
+// ============================================= Banner images ================================================
+
+document.addEventListener('DOMContentLoaded', function () {
+    function createCarousel(carouselContainer, intervalTime) {
+        let currentIndex = 0;
+        const slides = carouselContainer.querySelectorAll('.carousel-slide');
+        const totalSlides = slides.length;
+
+        function goToSlide(index) {
+            if (index >= totalSlides) {
+                currentIndex = 0;
+            } else if (index < 0) {
+                currentIndex = totalSlides - 1;
+            } else {
+                currentIndex = index;
+            }
+            const offset = -currentIndex * 100;
+            carouselContainer.style.transform = `translateX(${offset}%)`;
+        }
+
+        let slideInterval = setInterval(() => {
+            goToSlide(currentIndex + 1);
+        }, intervalTime);
+
+        let startX, endX;
+
+        carouselContainer.addEventListener('touchstart', (e) => {
+            startX = e.touches[0].clientX;
+            clearInterval(slideInterval);  // Stop auto-sliding when swiping starts
+        });
+
+        carouselContainer.addEventListener('touchmove', (e) => {
+            endX = e.touches[0].clientX;
+        });
+
+        carouselContainer.addEventListener('touchend', () => {
+            if (startX > endX + 50) {
+                goToSlide(currentIndex + 1);
+            } else if (startX < endX - 50) {
+                goToSlide(currentIndex - 1);
+            }
+            slideInterval = setInterval(() => {
+                goToSlide(currentIndex + 1);
+            }, intervalTime);  // Resume auto-sliding
+        });
+    }
+
+    // Initialize carousel for both desktop and mobile
+    const desktopCarousel = document.querySelector('#desktop-main');
+    const mobileCarousel = document.querySelector('#mobile-main');
+
+    if (desktopCarousel) {
+        createCarousel(desktopCarousel, 3000);
+    }
+
+    if (mobileCarousel) {
+        createCarousel(mobileCarousel, 3000);
+    }
+});
+
+
+
 // ================================================== about the project animation =========================================================
 
 
