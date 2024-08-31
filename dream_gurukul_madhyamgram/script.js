@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function () {
 //     });
 // });
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     function getParameterByName(name) {
         name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
         var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var callLink = document.getElementById('click_to_call');
     var phoneNumberElement = document.getElementById('phone_number');
     var sideNavPhoneNumber = document.getElementById('side-nav-phone-number');
-    
+
     console.log(`callLink: ${callLink}`);
     console.log(`phoneNumberElement: ${phoneNumberElement}`);
     console.log(`sideNavPhoneNumber: ${sideNavPhoneNumber}`);
@@ -393,7 +393,7 @@ window.addEventListener('scroll', function () {
 //                 section.classList.add('viewed');
 //                 sectionCounter++;
 //                 console.log(`section count: ${sectionCounter}`)
-                
+
 //                 if (sectionCounter>4 && sectionCounter % 4 === 0) { // Check if two sections have been viewed
 //                     enquiryForm('registration');
 //                 }
@@ -564,12 +564,12 @@ function floorPlansprevSlide() {
 
 function resetFloorPlanInterval() {
     clearInterval(floorPlanInterval);
-    floorPlanInterval = setInterval(floorPlansnextSlide, slideIntervalTime);
+    floorPlanInterval = setInterval(floorPlansnextSlide, 5000);
 }
 
 function startFloorPlanSlider() {
     floorPlansShowSlide(current); // Initial call to display the first slide
-    floorPlanInterval = setInterval(floorPlansnextSlide, slideIntervalTime);
+    floorPlanInterval = setInterval(floorPlansnextSlide, 5000);
 }
 
 function stopFloorPlanSlider() {
@@ -577,46 +577,46 @@ function stopFloorPlanSlider() {
 }
 
 // Master Plan
-let masterPlanCurrent = 0;
-let masterPlanInterval;
+// let masterPlanCurrent = 0;
+// let masterPlanInterval;
 
-function masterfloorPlansShowSlide(masterPlanIndex) {
-    const masterSlides = document.querySelectorAll('.master-floor-plans-item');
-    const mastertotalSlides = masterSlides.length;
-    if (masterPlanIndex >= mastertotalSlides) {
-        masterPlanCurrent = 0;
-    } else if (masterPlanIndex < 0) {
-        masterPlanCurrent = mastertotalSlides - 1;
-    } else {
-        masterPlanCurrent = masterPlanIndex;
-    }
-    const masterPlanOffset = -masterPlanCurrent * 100;
-    document.querySelector('.master-floor-plans-container').style.transform = `translateX(${masterPlanOffset}%)`;
-}
+// function masterfloorPlansShowSlide(masterPlanIndex) {
+//     const masterSlides = document.querySelectorAll('.master-floor-plans-item');
+//     const mastertotalSlides = masterSlides.length;
+//     if (masterPlanIndex >= mastertotalSlides) {
+//         masterPlanCurrent = 0;
+//     } else if (masterPlanIndex < 0) {
+//         masterPlanCurrent = mastertotalSlides - 1;
+//     } else {
+//         masterPlanCurrent = masterPlanIndex;
+//     }
+//     const masterPlanOffset = -masterPlanCurrent * 100;
+//     document.querySelector('.master-floor-plans-container').style.transform = `translateX(${masterPlanOffset}%)`;
+// }
 
-function masterFloorPlansNextSlide() {
-    resetMasterPlanInterval();
-    masterfloorPlansShowSlide(masterPlanCurrent + 1);
-}
+// function masterFloorPlansNextSlide() {
+//     resetMasterPlanInterval();
+//     masterfloorPlansShowSlide(masterPlanCurrent + 1);
+// }
 
-function masterFloorPlansprevSlide() {
-    resetMasterPlanInterval();
-    masterfloorPlansShowSlide(masterPlanCurrent - 1);
-}
+// function masterFloorPlansprevSlide() {
+//     resetMasterPlanInterval();
+//     masterfloorPlansShowSlide(masterPlanCurrent - 1);
+// }
 
-function resetMasterPlanInterval() {
-    clearInterval(masterPlanInterval);
-    masterPlanInterval = setInterval(masterFloorPlansNextSlide, slideIntervalTime);
-}
+// function resetMasterPlanInterval() {
+//     clearInterval(masterPlanInterval);
+//     masterPlanInterval = setInterval(masterFloorPlansNextSlide, slideIntervalTime);
+// }
 
-function startMasterPlanSlider() {
-    masterfloorPlansShowSlide(masterPlanCurrent); // Initial call to display the first slide
-    masterPlanInterval = setInterval(masterFloorPlansNextSlide, slideIntervalTime);
-}
+// function startMasterPlanSlider() {
+//     masterfloorPlansShowSlide(masterPlanCurrent); // Initial call to display the first slide
+//     masterPlanInterval = setInterval(masterFloorPlansNextSlide, slideIntervalTime);
+// }
 
-function stopMasterPlanSlider() {
-    clearInterval(masterPlanInterval);
-}
+// function stopMasterPlanSlider() {
+//     clearInterval(masterPlanInterval);
+// }
 
 // Intersection Observer
 document.addEventListener('DOMContentLoaded', () => {
@@ -676,6 +676,34 @@ function floorPlanShowTab(tabIndex) {
 floorPlansTabs[0].classList.add('focus');
 floorPlanShowTab(1);
 
+// Get the modal
+var floorPlanModal = document.getElementById("imageModal");
+
+// Get the modal image
+var modalImg = document.getElementById("modalImage");
+
+// Function to open the modal and display the image
+function openModal(src) {
+    floorPlanModal.style.display = "block";
+    modalImg.src = src;
+}
+
+// Function to close the modal
+function closeModal() {
+    floorPlanModal.style.display = "none";
+}
+
+// Add click event listeners to all floor plan images
+
+// ======================================== Floor Plan and Gallery image zoom ===================================
+document.querySelectorAll('.floor-plans-item img, .master-floor-plans-item img, .gallery-images .img-container img').forEach(function (img) {
+    img.addEventListener('click', function () {
+        console.log(this.src); // Log the src of the clicked image
+        openModal(this.src);
+    });
+});
+
+
 // ================================= Gallery ========================================
 const tabs = document.getElementsByClassName('gallery-tab');
 const tabContents = document.getElementsByClassName('gallery-tab-content');
@@ -699,25 +727,6 @@ function showTab(tabIndex) {
 
 tabs[0].classList.add('focus');
 showTab(1);
-
-const modal = document.getElementById('modal');
-const modalImage = document.getElementById('modal-image');
-
-function openModal(imageElement) {
-    modal.style.display = "flex";
-    modalImage.src = imageElement.querySelector('img').src;
-}
-
-function closeModal() {
-    modal.style.display = "none";
-}
-
-const imgContainers = document.getElementsByClassName('img-container');
-for (let container of imgContainers) {
-    container.addEventListener('click', function () {
-        openModal(this);
-    });
-}
 
 // ==================================== Map ===========================================
 // var mapLoaded = false;
@@ -864,41 +873,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     observer.observe(locationMapSection);
 });
-
-// Get the modal
-var floorPlanModal = document.getElementById("imageModal");
-
-// Get the modal image
-var modalImg = document.getElementById("modalImage");
-
-// Function to open the modal and display the image
-function openModal(src) {
-    floorPlanModal.style.display = "block";
-    modalImg.src = src;
-}
-
-// Function to close the modal
-function closeModal() {
-    floorPlanModal.style.display = "none";
-}
-
-// Add click event listeners to all floor plan images
-document.querySelectorAll('.floor-plans-item img, .master-floor-plans-item img').forEach(function(img) {
-    img.addEventListener('click', function() {
-        console.log(this.src); // Log the src of the clicked image
-        openModal(this.src);
-    });
-});
-
-// ======================= gallery zoom ==================================
-
-document.querySelectorAll('.gallery-images .img-container img').forEach(function(galleryImg) {
-    galleryImg.addEventListener('click', function() {
-        console.log("Clicked gallery image source:", this.src); // Log the src of the clicked image
-        openModal(this.src);
-    });
-});
-
 
 // ============================ project video ===============================
 
