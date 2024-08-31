@@ -1332,7 +1332,7 @@ input[type="number"] {
   top: 0;
   width: 100%;
   height: 100%;
-  overflow: hidden;
+  overflow: auto;
   background-color: rgba(0,0,0,0.9);
 }
 
@@ -1340,8 +1340,7 @@ input[type="number"] {
 .image-modal-content {
   margin: 65px auto 0 auto;
   display: block;
-  width: 98%;
-  max-width: 700px;
+  width: 90%;
 }
 
 /* Caption of Modal Image (Image Text) */
@@ -1371,7 +1370,7 @@ input[type="number"] {
 .image-modal-close {
   position: absolute;
   top: 15px;
-  right: 15px;
+  right: 30px;
   color: #f1f1f1;
   font-size: 40px;
   font-weight: bold;
@@ -2603,6 +2602,14 @@ footer a {
 
   .thumbnail-strip img {
     width: 50px;
+  }
+
+  .image-modal-content {
+    width: 98%;
+  }
+
+  .image-modal-close{
+    right: 15px;
   }
 
   .location-container {
