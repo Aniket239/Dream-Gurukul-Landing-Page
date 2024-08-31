@@ -609,7 +609,7 @@
                             <!-- <button class="floor-plans-view-button" onclick="enquiryForm('floor plan')">View
                                 Plan</button> -->
                             <img loading="lazy"
-                                src="dream_gurukul_madhyamgram/assets/Floor and Master plans/Tower A1+A2.webp"
+                                src="dream_gurukul_madhyamgram/assets/Floor and Master plans/Floor plan-26.webp"
                                 alt="Floor Plan 1">
                         </div>
                         <div class="floor-plans-item">
@@ -617,15 +617,23 @@
                             <!-- <button class="floor-plans-view-button" onclick="enquiryForm('floor plan')">View
                                 Plan</button> -->
                             <img loading="lazy"
-                                src="dream_gurukul_madhyamgram/assets/Floor and Master plans/Tower A1+A2 2.webp"
+                                src="dream_gurukul_madhyamgram/assets/Floor and Master plans/Floor plan-27.webp"
                                 alt="Floor Plan 2">
                         </div>
                         <div class="floor-plans-item">
-                            <p class="unit-plan-size">Tower B Floor:1,3,5,7</p>
+                            <p class="unit-plan-size">Tower B First Floor</p>
                             <!-- <button class="floor-plans-view-button" onclick="enquiryForm('floor plan')">View
                                 Plan</button> -->
                             <img loading="lazy"
-                                src="dream_gurukul_madhyamgram/assets/Floor and Master plans/Floor plan-30.jpg"
+                                src="dream_gurukul_madhyamgram/assets/Floor and Master plans/Floor plan-28.webp"
+                                alt="Floor Plan 3">
+                        </div>
+                        <div class="floor-plans-item">
+                            <p class="unit-plan-size">Tower B Floor:3,5,7</p>
+                            <!-- <button class="floor-plans-view-button" onclick="enquiryForm('floor plan')">View
+                                Plan</button> -->
+                            <img loading="lazy"
+                                src="dream_gurukul_madhyamgram/assets/Floor and Master plans/Floor plan-30.webp"
                                 alt="Floor Plan 3">
                         </div>
                         <div class="floor-plans-item">
@@ -633,7 +641,7 @@
                             <!-- <button class="floor-plans-view-button" onclick="enquiryForm('floor plan')">View
                                 Plan</button> -->
                             <img loading="lazy"
-                                src="dream_gurukul_madhyamgram/assets/Floor and Master plans/Floor plan-29.jpg"
+                                src="dream_gurukul_madhyamgram/assets/Floor and Master plans/Floor plan-29.webp"
                                 alt="Floor Plan 3">
                         </div>
                         <!-- Add more items as needed -->
@@ -646,14 +654,16 @@
                     </button>
                 </div>
                 <div class="thumbnail-strip">
-                    <img loading="lazy" src="dream_gurukul_madhyamgram/assets/Floor and Master plans/Tower A1+A2.webp"
+                    <img loading="lazy" src="dream_gurukul_madhyamgram/assets/Floor and Master plans/Floor plan-26.webp"
                         alt="Floor Plan 1" onclick="floorPlansShowSlide(0)">
-                    <img loading="lazy" src="dream_gurukul_madhyamgram/assets/Floor and Master plans/Tower A1+A2 2.webp"
+                    <img loading="lazy" src="dream_gurukul_madhyamgram/assets/Floor and Master plans/Floor plan-27.webp"
                         alt="Floor Plan 2" onclick="floorPlansShowSlide(1)">
-                    <img loading="lazy" src="dream_gurukul_madhyamgram/assets/Floor and Master plans/Tower B.webp"
-                        alt="Floor Plan 3" onclick="floorPlansShowSlide(2)">
-                    <img loading="lazy" src="dream_gurukul_madhyamgram/assets/Floor and Master plans/Tower B 2.webp"
+                        <img loading="lazy" src="dream_gurukul_madhyamgram/assets/Floor and Master plans/Floor plan-28.webp"
+                        alt="Floor Plan 1" onclick="floorPlansShowSlide(2)">
+                    <img loading="lazy" src="dream_gurukul_madhyamgram/assets/Floor and Master plans/Floor plan-30.webp"
                         alt="Floor Plan 3" onclick="floorPlansShowSlide(3)">
+                    <img loading="lazy" src="dream_gurukul_madhyamgram/assets/Floor and Master plans/Floor plan-29.webp"
+                        alt="Floor Plan 3" onclick="floorPlansShowSlide(4)">
                     <!-- Add more thumbnails as needed -->
                 </div>
             </div>
