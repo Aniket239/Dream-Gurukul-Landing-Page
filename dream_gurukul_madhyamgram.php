@@ -258,8 +258,6 @@
             <h1>Overview</h1>
         </div>
         <br>
-        <br>
-        <br>
         <div class="project-about">
             <div class="project-about-icons">
                 <div class="project-about-icon">
@@ -1035,7 +1033,7 @@
                         </span>
                     </div>
                     <div class="img-container">
-                        <img loading="lazy" src="dream_gurukul_madhyamgram/assets/gallery images/interior/Toilet.webp"
+                        <img loading="lazy" src="dream_gurukul_madhyamgram/assets/gallery images/interior/toilet.webp"
                             alt="Image 3">
                         <span class="material-symbols-outlined" id="zoom-icon">zoom_in
                         </span>
