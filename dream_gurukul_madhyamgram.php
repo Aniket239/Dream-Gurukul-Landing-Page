@@ -673,7 +673,7 @@
                             <!-- <button class="floor-plans-view-button" onclick="enquiryForm('floor plan')">View
                                 Plan</button> -->
                             <img loading="lazy"
-                                src="dream_gurukul_madhyamgram/assets/Floor and Master plans/Master Plan-01.webp"
+                                src="dream_gurukul_madhyamgram/assets/Floor and Master plans/Master Plan-31.webp"
                                 alt="Master Plan 1">
                         </div>
                         <!-- <div class="master-floor-plans-item">
