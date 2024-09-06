@@ -217,7 +217,7 @@
             <p id="side-nav-phone-number">+91 95134 36882</p>
         </div>
         <div class="side-nav-whatsapp">
-            <a href="https://wa.me/+919330290724?text=I%20want%20to%20know%20more%20about%20Dream%20Gurukul."
+            <a href="https://wa.me/+919330290724?text=Interested%20in%20Dream%20Gurukul."
                 target="_blank">
                 <div class="side-nav-whatsapp-icon"></div>
             </a>
