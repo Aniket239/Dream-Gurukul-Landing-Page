@@ -288,7 +288,8 @@
                     <img loading="lazy" class="icon" width="100" height="100"
                         src="dream_gurukul_madhyamgram/assets/icon/indian-rupee.png" alt="rupee" />
                     <br>
-                    <p class="project-icon-text">50 Lacs Onwards*</p>
+                    <p class="project-icon-text">2 BHK 50 Lakhs*</p>
+                    <p class="project-icon-text">3 BHK 76 Lakhs*</p>
                 </div>
             </div>
             <div class="about-the-project-description-container">
